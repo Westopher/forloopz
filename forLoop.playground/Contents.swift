@@ -11,3 +11,16 @@ for hi in array {
     print("Hi there " + hi + ".")
     
 }
+
+
+var numbers = [Double]()
+
+numbers = [8, 7, 19, 28]
+
+for (index, value) in numbers.enumerated() {
+    
+    numbers[index] = value / 2
+    
+}
+
+print(numbers)
